@@ -1,0 +1,23 @@
+/* You can add global styles to this file, and also import other style files */
+
+.jumbotron{
+    background-image: url("./assets/images/background.jpeg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 0px;
+    text-shadow: 2px 2px 5px black;
+
+}
+
+.row{
+    margin-bottom: 50px;
+}
+
+h4{
+    font-weight: bold;
+    
+}
+
+.card{
+    margin-bottom: 10px;
+}

@@ -1,0 +1,24 @@
+<app-nav-bar></app-nav-bar>
+
+<div class="jumbotron text-center">
+    <h1>Dashboard</h1>
+  </div>
+  
+  <div class="container">
+    <h3>Recommended Recipe's</h3>
+    <div class="row">
+      <div class="col-sm-4" *ngFor = "let person of fetchedRecipe">
+        <div class="card">
+            <img class="card-img-top gifOnhover" src="../../assets/images/food.jpeg" alt="Card image">
+            <div class="card-body">
+              <h4 class="card-title">{{person[0]}}</h4>
+              <p class="card-text">{{person[1]}}</p>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti debitis sit, culpa ratione ullam in? Deserunt odio, consectetur culpa dolore porro dolorem, beatae quaerat aspernatur, ad nihil officia. Animi, dignissimos?
+              </p>
+              <a href="#" class="btn btn-primary">Rate Recipe</a>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div> 
